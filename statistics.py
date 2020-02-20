@@ -57,7 +57,7 @@ PARAMS_edit = {
     "title": "User:Emojiwiki/editstatistics",
     "token": CSRF_TOKEN,
     "format": "json",
-    "appendtext": "Hello"
+    "appendtext": pagedata
 }
 
 R = S.post(URL, data=PARAMS_3)
